@@ -6,26 +6,26 @@ registration:
   socialLogins: ["discord", "facebook", "github", "google", "openid"]
 
 speech:
-  stt:
-    openai:
-      apiKey: '${STT_API_KEY}'
-      model: 'whisper-1'
+  #stt:
+    #openai:
+      #apiKey: '${STT_API_KEY}'
+      #model: 'whisper-1'
   speechTab:
     conversationMode: true
     advancedMode: false
     speechToText:
-      engineSTT: "external"
+      #engineSTT: "external"
       languageSTT: "English (US)"
       autoTranscribeAudio: true
       decibelValue: -30
-      autoSendText: true
-    textToSpeech:
-      engineTTS: "OpenAI"
-      voice: "alloy"
-      languageTTS: "en"
-      automaticPlayback: true
-      playbackRate: 1.0
-      cacheTTS: true
+      #autoSendText: true
+    #textToSpeech:
+      #engineTTS: "OpenAI"
+      #voice: "alloy"
+      #languageTTS: "en"
+      #automaticPlayback: true
+      #playbackRate: 1.0
+      #cacheTTS: true
 
 endpoints:
   assistants:
