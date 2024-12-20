@@ -4,9 +4,24 @@ cache: false
 
 registration:
   socialLogins: ["discord", "facebook", "github", "google", "openid"]
-  #allowedDomains:
-    #- "advancedrecoverysystems.com"
-    #- "recoverykansascity.com"
+  allowedDomains:
+    - "advancedrecoverysystems.com"
+    - "recoverykansascity.com"
+    - "orlandorecovery.com"
+    - "columbusrecoverycenter.com"
+    - "recoveryindianapolis.com"
+    - "recoveryatlanta.com"
+    - "therecoveryvillage.com"
+    - "palmerlakerecovery.com"
+    - "recoverypalmbeach.com"
+    - "miamidaderecovery.com"
+    - "ridgefieldrecovery.com"
+    - "southjerseyrecovery.com"
+    - "iaffrecoverycenter.com"
+    - "denveroutpatient.com"
+    - "orlandooutpatient.com"
+    - "floridarehab.com"
+        
 
 speech:
   stt:
